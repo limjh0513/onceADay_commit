@@ -6,9 +6,9 @@ int main(void)
 	int num;
 	int i;
 
-	scanf("%d", &num); //¿øÇÏ´Â ¼ö ÀÔ·Â
+	scanf("%d", &num); //ì›í•˜ëŠ” ìˆ˜ ì…ë ¥
 
-	for (i = 1; i < 10; i++) //±¸±¸´ÜÀÌ¹Ç·Î 1~9±îÁö
+	for (i = 1; i < 10; i++) //êµ¬êµ¬ë‹¨ì´ë¯€ë¡œ 1~9ê¹Œì§€
 	{
 		printf("%d*%d=%d", num, i, num * i);
 	}

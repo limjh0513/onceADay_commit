@@ -4,9 +4,9 @@
 int main(void)
 {
 	int arr[1000];
-	int n; //���� �Է�
-	int i; //for��
-	int big_num = 0; //�ִ밪
+	int n; //°¹¼ö ÀÔ·Â
+	int i; //for¹®
+	int big_num = 0; //ÃÖ´ë°ª
 	scanf("%d", &n);
 
 	for (i = 0; i < n; i++)

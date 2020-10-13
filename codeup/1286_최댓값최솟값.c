@@ -9,6 +9,7 @@ int bignum(int arr[])
 	for (i = 1; i < 5; i++)
 	{
 		if (big < arr[i])
+		{
 			big = arr[i];
 		}
 	}
@@ -32,9 +33,9 @@ int smallnum(int arr[])
 
 int main(void)
 {
-	int arr[5]; //5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½
+	int arr[5]; //5°³ Á¤¼ö ÀÔ·Â
 	int i;
-	int big, small; //ï¿½Ö´ï¿½, ï¿½Ö¼Ú°ï¿½
+	int big, small; //ÃÖ´ñ°ª, ÃÖ¼Ú°ª
 
 	for (i = 0; i < 5; i++)
 	{
